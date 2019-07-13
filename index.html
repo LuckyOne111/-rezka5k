@@ -1,0 +1,1389 @@
+<DOCTYPE html>
+
+
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta charset="UTF-8"/>
+ <title>Лазерная резка и гибка</title>
+  <meta name="description" content="Лазерная резка и гибка" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+   <link rel="stylesheet" type="text/css" href="css/fotorama.css" />
+  
+ <script src='http://sorgalla.com/jcarousel/vendor/jquery/jquery.js'></script>
+ <script src='apql.js'></script>
+  
+
+
+
+
+
+
+
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+  <script src="js/fotorama.js"></script>
+
+
+
+
+<script src="js/jquery.maskedinput.min.js"></script>
+
+
+
+
+  
+  
+
+  
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(47380264, "init", {
+        id:47380264,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        trackHash:true
+   });
+  
+ 
+  
+  
+
+ 
+
+  
+  
+
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/47380264" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  
+<!-- /Yandex.Metrika counter -->
+  
+ 
+ <meta name="yandex-verification" content="0e0c1b43e66868a1" />
+
+
+
+
+</head>
+
+
+<body class="body" style="position: relative;">
+
+
+
+
+
+<div class="prel">
+<div class="preloader">
+  <div class="loader-circle"></div>
+  <div class="loader-bottom">Загрузка...</div>
+   
+</div>
+</div>
+
+<tap class="navigation-by-page" id="top">a</tap>
+
+
+
+<div id="head">
+
+  
+ 
+
+
+
+
+
+
+
+
+<div   id="menu">
+<ul class="menu-left">
+
+<li class="grow-rotate" id="lo"  ><a class="go_to"  href="#top">
+<img >
+</a>
+</li>
+<li id="b"  ><a  class="rotate" href="#top">
+Лазерная резка и гибка
+</a>
+</li>
+<li id="c"><a class="rotate" href="#works-s">
+Наши работы
+</a>
+</li>
+<li id="d"><a class="rotate" href="#better-s">
+Наши преимущества
+</a>
+</li>
+<li  id="g"><a class="rotate" href="#how-we-work-s">
+Как мы работаем
+</a>
+</li>
+<li  id="f"><a class="rotate" href="#eqvuipment-s">
+Оборудование
+</a>
+</li>
+<li  id="n"><a class="rotate" href="#tuch-s">
+Контакты
+</a>
+</li>
+</ul>
+<tap class="bar-show-navigation"  id="a"></tap>
+
+  <ul class="menu-right">
+<li onclick="ym(47380264, 'reachGoal', 'TARGET3'); return true;">
+zakaz@rezka5k.ru
+
+</li>
+<li>
+  
+<a onclick="ym(47380264, 'reachGoal', 'TARGET2'); return true;"  href="tel:+7 495 787-40-57" >
++7 495 787-40-57
+</a>
+</li>
+</ul>
+
+
+</div>
+
+<div id="top-words">
+
+<div  style="background-image: url('images/b.jpg');background-size: cover;" id="photo-top-description">
+
+  <div class="text-inner-description">
+<h1>Лазерная резка и гибка металла</h1>
+ 
+    
+ 
+<h3>Расчет стоимости в течении 30 минут!</h3>
+
+<a id="ffff" onclick="ym(47380264, 'reachGoal', 'TARGET4'); return true;" href="#" >Получить консультацию</a>
+</div>
+<br>
+<br>
+
+ 
+</div>
+
+</div>
+</div>
+  
+
+
+<div class="sending-info-from-user">
+
+
+  <div id="Thanks">Мы получили ваше сообщение<div id="close-thanks"><img src="images/close.svg.png"></div></div>
+<div id="black"></div>
+  
+
+<form enctype="multipart/form-data"  id="feedback-form"   action="" method="POST" onsubmit="ym(47380264, 'reachGoal', 'TARGET1'); return true;" >
+
+<div  id="close"><img src="images/close.svg.png"></div>
+<label for="nameFF">Имя:</label>
+<input type="text" name="name" id="nameFF" required placeholder="Александр" x-autocompletetype="name" class="w100 border">
+  <label for="phoneFF">Телефон:</label>
+<input type="text"  name="phone" id="phoneFF" required placeholder="8(903) 555-55-55" x-autocompletetype="tel" class="w100 border">
+
+<input    value="Получить консультацию" type="submit"  id="submitFF">
+</form>
+
+</div>
+
+
+
+
+<script>
+  
+  $(document).ready(function() { // вся мaгия пoслe зaгрузки стрaницы
+	$("#feedback-form").submit(function(){ // пeрeхвaтывaeм всe при сoбытии oтпрaвки
+		var form = $(this); // зaпишeм фoрму, чтoбы пoтoм нe былo прoблeм с this
+		var error = false; // прeдвaритeльнo oшибoк нeт
+     
+		form.find('input').each( function(){ // прoбeжим пo кaждoму пoлю в фoрмe
+			if ($(this).val() == '') { // eсли нaхoдим пустoe
+				alert('Зaпoлнитe пoлe "'+$(this).attr('placeholder')+'"!'); // гoвoрим зaпoлняй!
+				error = true; // oшибкa
+			}
+		});
+		if (!error) { // eсли oшибки нeт
+			var data = form.serialize(); // пoдгoтaвливaeм дaнныe
+			$.ajax({ // инициaлизируeм ajax зaпрoс
+			   type: 'POST', // oтпрaвляeм в POST фoрмaтe, мoжнo GET
+			   url: 'contacts.php', // путь дo oбрaбoтчикa, у нaс oн лeжит в тoй жe пaпкe
+			   dataType: 'json', // oтвeт ждeм в json фoрмaтe
+			   data: data, // дaнныe для oтпрaвки
+		       beforeSend: function(data) { // сoбытиe дo oтпрaвки
+		            form.find('input[type="submit"]').attr('disabled', 'disabled'); // нaпримeр, oтключим кнoпку, чтoбы нe жaли пo 100 рaз
+		          },
+		       success: function(data){ // сoбытиe пoслe удaчнoгo oбрaщeния к сeрвeру и пoлучeния oтвeтa
+		       		if (data['error']) { // eсли oбрaбoтчик вeрнул oшибку
+		       			alert(data['error']); // пoкaжeм eё тeкст
+		       		} else { // eсли всe прoшлo oк
+                      
+                      
+                      
+		       			$("#feedback-form").css({"height":"0px","overflow":"hidden","top":"-200px"});
+      if(screen.width < 800){
+      $('#Thanks').css({"height":"84px","z-index":"10037","top":"0px"});
+
+      }else{
+      
+      $('#Thanks').css({"height":"84px","z-index":"10037","top":"0px"});
+      }
+      
+      $('#black').css({"height":"84px","z-index":"-9900","top":"-500px"});
+      
+      
+      function func() {
+        if(screen.width < 800){
+        $('#Thanks').css({"height":"84px","top":"-200px"});
+        }else{
+        
+  $('#Thanks').css({"height":"84px","top":"-200px"});
+        }
+        $("#feedback-form").css({"height":"0px","overflow":"hidden","top":"-200px"});
+        
+}
+
+setTimeout(func, 3000);
+      
+      $('#close-thanks').on('click', function(){
+        
+        
+      $('#Thanks').css({"height":"74px","top":"-200px"});
+        $('#black').css({"height":"0px","z-index":"-9900"});
+        $("#feedback-form").css({"height":"0px","overflow":"hidden","top":"-200px"});
+         });
+      
+                      
+                      // пишeм чтo всe oк
+		       		}
+		         },
+		       error: function (xhr, ajaxOptions, thrownError) { // в случae нeудaчнoгo зaвeршeния зaпрoсa к сeрвeру
+		            alert(xhr.status); // пoкaжeм oтвeт сeрвeрa
+		            alert(thrownError); // и тeкст oшибки
+		         },
+		       complete: function(data) { // сoбытиe пoслe любoгo исхoдa
+		            form.find('input[type="submit"]').prop('disabled', false); // в любoм случae включим кнoпку oбрaтнo
+		         }
+		                  
+			     });
+		}
+		return false; // вырубaeм стaндaртную oтпрaвку фoрмы
+	});
+});
+  
+  
+  </script>
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  
+  
+  <div id="circle">
+
+<div id="title-circles">Виды обработки</div>
+
+<div id="circles">
+<ul>
+
+<li><div id="description-circles">Лазерная резка черной стали</div>
+
+<img src="images/laser1.jpg">
+
+</br>
+</br>
+<h3>Максимальная толщина 16 мм</h3>
+  <div class="aqc"><a class="price-for-circle" href="price.php">Цены</a></div>
+</li>
+<li><div id="description-circles">Лазерная резка нержавеющей стали</div>
+<img src="images/laser2.jpg">
+
+
+</br>
+</br>
+<h3>Максимальная толщина 12 мм</h3>
+  <div class="aqc"><a class="price-for-circle" href="price.php">Цены</a></div>
+</li>
+  <li><div id="description-circles">Гибка</div>
+<img src="images/laser4.jpg">
+
+
+
+</br>
+</br>
+<h3>Максимальная толщина 16 мм</h3>
+<div class="aqc"><a class="price-for-circle" href="price.php">Цены</a></div>
+</li>
+<li><div id="description-circles">Порошковая покраска</div>
+<img src="images/laser3.jpg">
+
+
+</br>
+</br>
+<h3>Объем покрасочной камеры 70 м³</h3>
+ <div class="aqc"><a class="price-for-circle" href="price.php">Цены</a></div>
+</li>
+
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="works">
+  <div class="rel" id="works-s">a</div>
+<div id="title-works">
+<div id="about-works">
+Примеры наших работ
+</div>
+</div>
+
+
+ 
+ 
+
+    <div class="container">
+      <div id="sidebar">
+        <ul>
+
+
+<li   ><a   href="#top">
+Лазерная резка и гибка
+</a>
+</li>
+<li ><a href="#works-s">
+Наши работы
+</a>
+</li>
+<li ><a  href="#better-s">
+Наши преимущества
+</a>
+</li>
+<li  ><a  href="#how-we-work-s">
+Как мы работаем
+</a>
+</li>
+<li  ><a  href="#eqvuipment-s">
+Оборудование
+</a>
+</li>
+ <li  >
+   <a  href="#tuch-s">
+Контакты
+</a>
+</li>
+
+</ul>
+      </div>
+      <div class="main-content">
+          <div id="swipe-area" class="swipe-area"></div>
+          <a href="#swipe-area" data-toggle=".container" id="sidebar-toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </a>
+         
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div id="gallery">
+  <!-- Fotorama -->
+ 
+
+  
+
+<!-- Fotorama -->
+<div class="fotorama" data-width="700" data-ratio="700/467" data-max-width="100%">
+        <img src="images/work1.jpg" style="width: 100%;"> 
+        <img src="images/work2.jpg" style="width: 100%;" >
+        <img src="images/work3.jpg" style="width: 100%;"> 
+        <img src="images/work4.jpg" style="width: 100%;"> 
+        <img src="images/work5.jpg" style="width: 100%;">
+        <img src="images/work6.jpg" style="width: 100%;">
+        <img src="images/work7.jpg" style="width: 100%;">
+        <img src="images/work8.jpg" style="width: 100%;">
+        <img src="images/work9.jpg" style="width: 100%;">
+        <img src="images/work10.jpg" style="width: 100%;">
+        <img src="images/work11.jpg" style="width: 100%;">
+        <img src="images/work12.jpg" style="width: 100%;">
+  
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="better">
+  
+ 
+<div class="rel" id="better-s">a</div>
+
+<div id="title-better">
+Наши преимущества
+</div>
+<div id="why-we-better">
+
+<ul>
+<li>
+
+<img  class="small-image" src="images/clock.png">
+</br></br>
+Оценка в течении 1 часа
+  </br></br>
+</li>
+<li>
+
+<img src="images/piggy-bank.png">
+</br></br>
+Бесплатное изготовление тестового образца
+</li>
+<li>
+
+<img src="images/blueprint.png">
+</br></br>
+Помощь в доработке чертежей
+</li>
+
+</ul>
+
+<ul class="imp">
+<li>
+
+<img  src="images/truck.png">
+</br></br>
+Доставка по все России
+</br></br>
+</li>
+<li>
+
+<img src="images/engineer.png">
+</br></br>
+Изготовление по образцу
+</br></br>
+</li>
+<li>
+
+<img src="images/24-hours.png">
+</br></br>
+Производство работает в режиме 24/7
+</li>
+
+</ul>
+
+
+
+</div>
+
+</div>
+
+
+<div id="how-we-work">
+
+<div class="rel" id="how-we-work-s">a</div>
+
+<div id="title-how-we-work">
+Как мы работаем
+</div>
+  
+  <ul>
+
+
+<li>
+1.Запрос
+</br></br>
+<img  src="images/email.png">
+</br></br>
+Вы присылаете нам чертежи/модели/эскизы на почту
+
+<div id="arrow"></div>
+</li>
+<li>
+2.Расчет стоимости
+</br></br>
+<img src="images/ocenka.png">
+</br></br>
+Мы производим расчет стоимости производства
+<div id="arrow"></div>
+</li>
+<li id="how-work3">
+3.Заключение договора
+</br></br>
+<img  src="images/handshake.png">
+</br></br>
+Заключаем договор или выставляем счет
+<div id="arrow"></div>
+</li>
+</ul>
+<ul >
+<li  id="how-work4">
+4.Оплата 30%
+</br></br>
+<img  src="images/money.png">
+</br></br>
+Вы оплачиваете 30% от общей стоимости заказа
+
+</li>
+<li  id="how-work4">
+5.Производство
+</br></br>
+<img  src="images/settings.png">
+</br></br>
+Мы приступаем к изготовлению
+
+</li>
+
+<li  id="how-work4">
+6.Отгрузка
+</br></br>
+<img  src="images/like.png">
+</br></br>
+Вы получаете свою продукцию
+</li>
+
+
+
+
+</ul>
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<div id="eqvuipment">
+
+<div class="rel" id="eqvuipment-s">a</div>
+
+<div id="eqvuipment-title">
+Наше оборудование
+</div>
+  
+  
+  
+  <div class="wrapper">
+           
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li>
+<img id="eq1" src="images/equipment3.png">
+</br>
+</br>
+<div id="name-eqvuipment">
+
+КС-НАВИГАТОР 7В-3
+</div>
+
+<div id="eqvuipment-characteristic">
+<adf class="inner-characteristic">● Рабочая зона 6000х1500 мм</adf>
+  </br>
+<adf class="inner-characteristic">● Мощность лазера 3 кВт</adf>
+
+</div>
+
+</li>
+    
+    
+    <li>
+<img id="eq1" src="images/equipment3.png">
+</br>
+</br>
+<div id="name-eqvuipment">
+
+КС-НАВИГАТОР 6В-3
+</div>
+
+<div id="eqvuipment-characteristic">
+<adf class="inner-characteristic">● Рабочая зона 6000х2000 мм</adf>
+  </br>
+<adf class="inner-characteristic">● Мощность лазера 5 кВт</adf>
+
+</div>
+
+</li>
+                        
+
+
+<li>
+<img id="eq1" src="images/equipment3.png">
+</br>
+</br>
+<div id="name-eqvuipment">
+
+КС-НАВИГАТОР 3В-2
+</div>
+
+<div id="eqvuipment-characteristic">
+
+
+<adf class="inner-characteristic">● Рабочая зона 3000х1500 мм</adf>
+  </br>
+<adf class="inner-characteristic">● Мощность лазера 3 кВт</adf>
+
+  
+  
+
+</div>
+
+</li>
+
+<li>
+<img id="eq1" src="images/equipment3.png">
+</br>
+</br>
+<div id="name-eqvuipment">
+
+КС-НАВИГАТОР 3В-3
+</div>
+
+<div id="eqvuipment-characteristic">
+
+
+<adf class="inner-characteristic">● Рабочая зона 3000х1500 мм</adf>
+  </br>
+<adf class="inner-characteristic">● Мощность лазера 2 кВт</adf>
+
+  
+  
+
+</div>
+
+</li>
+
+
+<li>
+<img id="eq2" src="images/equipment7.jpg">
+</br>
+</br>
+<div id="name-eqvuipment">
+
+ProTech ADVANCEPRO 6100-400
+</div>
+
+<div id="eqvuipment-characteristic">
+
+
+<adf class="inner-characteristic">● Рабочая длина 6310 мм</adf>
+  </br>
+<adf class="inner-characteristic">● Усилие гибки 300 т</adf>
+
+  
+  
+
+</div>
+
+</li>
+                        
+                        
+                    </ul>
+                </div>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#"  class="jcarousel-control-next">&rsaquo;</a>
+
+                <p class="jcarousel-pagination"></p>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+
+
+
+<div id="tuch">
+
+<div class="rel" id="tuch-s">a</div>
+<div  id="tuch-title">
+Контакты
+</div>
+
+
+<div id="about-us">
+
+
+<ul>
+<li>
+<img id="email" src="images/email1.png" >
+</br>
+</br>
+<div onclick="ym(47380264, 'reachGoal', 'TARGET4'); return true;" class="soc">
+zakaz@rezka5k.ru
+</div>
+</li>
+
+<li class="arl">
+<a  onclick="ym(47380264, 'reachGoal', 'TARGET2'); return true;" class="soc" href="tel:+7 (925) 676-65-96"><img style="    position: absolute;
+    margin-top: -78px;
+    margin-left: -60px;" src="images/phone.png"></a>
+</br>
+
+</br>
+<div id="claq"><a  class="soc" href="tel:+7 (495) 787-40-57">+7 (495) 787-40-57</a></br><a id="gggg"  onclick="ym(47380264, 'reachGoal', 'TARGET2'); return true;" class="soc" href="tel:+7 (925) 676-65-96">+7 (925) 676-65-96</a></div>
+
+
+</li>
+
+
+
+
+
+
+</ul>
+
+
+
+</div>
+
+</div>
+
+
+
+<footer id="footer">
+<div id="kontent-footer">
+
+<ul>
+<li>
+<div class="title">Наши сайты</div>
+<a class="soc" target="blank"  href="https://galvaniko.ru/">Гальванические покрытия</a></br>
+<a class="soc"  target="blank" href="https://www.intmeh.ru/">Фрезерные и токарные работы</a>
+</li>
+
+
+
+
+<li>
+<div class="title">Контактная информация</div>
+<div class="soc">zakaz@rezka5k.ru</div>
+  <a class="soc"  href="tel:+7 (495) 787-40-57">+7 (495) 787-40-57</a></br><a class="soc"  href="tel:+7 (925) 676-65-96">+7 (925) 676-65-96</a>
+
+
+
+</li>
+
+
+
+
+
+<li>
+<div class="title">Производственная компания INTmeh</div>
+<div class="soc"> г.Москва, проезд Черепановых, д. 10</div>
+</li>
+</ul>
+
+</div>
+
+</footer>
+
+</body>
+
+<script>
+  $(window).on('load', function () {
+    $preloader = $('.prel'),
+      $loader = $preloader.find('.preloader');
+    $loader.fadeOut();
+    $preloader.fadeOut();
+    $(".body").css("overflow","visible");
+    $preloader.delay(350).fadeOut('slow');
+
+  });
+</script>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+      
+      
+      var name = $('input[name=fio]').val(); 
+ var tel = $('input[name=tel]').val();
+ var otpravka = true;
+ if(name==""){ 
+ otpravka = false;
+ }
+ if(tel ==""){
+ otpravka = false;
+ }
+      
+      dannie = {'polz_name':name, 'polz_tel':tel};
+      
+      if(otpravka) 
+ {
+ $.post('contacts.php', dannie, function(otvet){ 
+ rezultat = '<div>'+otvet.text+'</div>';
+  $("#form_result").hide().html(rezultat).slideDown();
+ }, 'json');
+ }
+      
+      
+      
+      
+      
+            $(function(){
+  $("#phoneFF").mask("8(999) 999-9999");
+});
+
+      
+      $(window).resize(function(){
+ 
+});
+      
+      
+    if(screen.width < 1600){
+      
+      var div = document.getElementById('b');
+ 
+var rect = div.getBoundingClientRect();
+         
+            var carl = rect.top + 20 ;
+      
+        $('#a').css( "top", carl);
+                        $('#a').css( "left", rect.left);
+                        $('#a').css( "margin-left", "0");
+
+
+                        
+                       function func() {
+$('#a').css( "transition-duration", "0.2s");
+}
+
+setTimeout(func, 500);
+
+    
+    
+    }
+      else{
+var div = document.getElementById('b');
+ 
+var rect = div.getBoundingClientRect();
+         
+            var carl = rect.top + 30 ;
+            
+      
+
+                        $('#a').css( "top", carl);
+                        $('#a').css( "left", rect.left);
+                        $('#a').css( "margin-left", "0");
+
+
+                        
+                       function func() {
+$('#a').css( "transition-duration", "0.2s");
+}
+
+setTimeout(func, 500);
+
+
+
+
+      }
+
+
+
+
+
+
+
+
+      
+      $("#feedback-form").css("font-size","20px!important");
+ 
+      
+      
+      if(screen.width <700){
+        
+        
+        var script = document.createElement('script');
+script.src = "jquery.touchSwipe.min.js"
+document.body.appendChild(script);
+      
+      
+      
+      
+      $(window).load(function(){
+        $("[data-toggle]").click(function() {
+          var toggle_el = $(this).data("toggle");
+          $(toggle_el).toggleClass("open-sidebar");
+          
+          $('#sidebar').css({"box-shadow": "0 -3px 7px rgba(0,0,0,0.25), 0 3px 7px rgba(0,0,0,0.22)","background-color":"black"});
+                        $('#sidebar-toggle').css("display","none");
+                        
+        });
+         $(".container").swipe({
+              swipeStatus:function(event, phase, direction, distance, duration, fingers)
+                  {
+                      if (phase=="move" && direction =="right") {
+                           $(".container").addClass("open-sidebar");
+                       
+                        $('#sidebar').css({"box-shadow": "0 -3px 7px rgba(0,0,0,0.25), 0 3px 7px rgba(0,0,0,0.22)","background-color":"black"});
+                        $('#sidebar-toggle').css("display","none");
+                        
+                           return false;
+                      }
+                      if (phase=="move" && direction =="left") {
+                           $(".container").removeClass("open-sidebar");
+                        $('#sidebar').css({"box-shadow": "none","background-color":"rgba(0,0,0,0)"});
+                        $('#sidebar-toggle').css("display","block");
+                        
+                           return false;
+                      }
+                  }
+          }); 
+
+
+             $(".container ul li a").click(function(){
+             
+                     $('#sidebar').css({"box-shadow": "none","background-color":"rgba(0,0,0,0)"});
+                        $('#sidebar-toggle').css("display","block");
+                           $(".container").removeClass("open-sidebar");
+                           
+                  
+          }); 
+      });
+      
+    
+      
+      }
+      
+      
+
+
+if(screen.width > 800){
+
+
+
+$( "#tuch" ).mouseover(function() {
+
+
+ 
+                                           var div = document.getElementById('n');
+window.addEventListener('scroll', raz, false);
+window.addEventListener('resize', raz, false);
+function raz() {
+  var rect = div.getBoundingClientRect();
+            
+          
+
+
+            var ab = $("#n").css('width');
+
+            $('#a').css({"width": ab, "left": rect.left});
+        }
+
+
+});
+
+
+$( "#eqvuipment" ).mouseover(function() {
+
+
+ 
+                                           var div = document.getElementById('f');
+window.addEventListener('scroll', raz, false);
+window.addEventListener('resize', raz, false);
+function raz() {
+  var rect = div.getBoundingClientRect();
+            
+          
+
+
+            var ab = $("#f").css('width');
+
+            $('#a').css({"width": ab, "left": rect.left});
+        }
+
+
+});
+
+$( "#how-we-work" ).mouseover(function() {
+
+
+ 
+                                           var div = document.getElementById('g');
+window.addEventListener('scroll', raz, false);
+window.addEventListener('resize', raz, false);
+function raz() {
+  var rect = div.getBoundingClientRect();
+            
+          
+
+
+            var ab = $("#g").css('width');
+
+            $('#a').css({"width": ab, "left": rect.left});
+        }
+
+
+});
+
+$( "#better" ).mouseover(function() {
+
+
+ 
+                                           var div = document.getElementById("d");
+window.addEventListener('scroll', raz, false);
+window.addEventListener('resize', raz, false);
+function raz() {
+  var rect = div.getBoundingClientRect();
+            
+          
+
+
+            var ab = $("#d").css('width');
+
+            $('#a').css({"width": ab, "left": rect.left});
+        }
+
+
+});
+
+
+$( "#works" ).mouseover(function() {
+
+
+ 
+                                           var div = document.getElementById('c');
+window.addEventListener('scroll', raz, false);
+window.addEventListener('resize', raz, false);
+function raz() {
+  var rect = div.getBoundingClientRect();
+            
+          
+
+
+            var ab = $("#c").css('width');
+
+            $('#a').css({"width": ab, "left": rect.left});
+        }
+
+
+});
+
+$( "#circle" ).mouseover(function() {
+
+
+ 
+                                           var div = document.getElementById('b');
+window.addEventListener('scroll', raz, false);
+window.addEventListener('resize', raz, false);
+function raz() {
+  var rect = div.getBoundingClientRect();
+            
+          
+
+
+            var ab = $("#b").css('width');
+
+            $('#a').css({"width": ab, "left": rect.left});
+        }
+
+
+});
+
+ }
+    
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+ $(document).ready(function(){
+    $("#sidebar ul").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });
+});
+
+
+
+ $(document).ready(function(){
+   
+       
+   
+   
+    $("#menu ul").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });
+});
+
+
+
+ $(document).ready(function(){
+    $("#lo").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });
+});
+
+
+  $(document).ready(function(){
+    $("#ffff").on("click", function () {
+
+      
+      
+      if(screen.width < 800){
+      $("#feedback-form").css({"height":"210px","visibility":"visible","top":"1%"});
+        $('#black').css({"height":"100%","z-index":"9900","top":"0px"});
+        
+      }else{
+        
+        $("#feedback-form").css({"height":"290px","visibility":"visible","top":"3%"});
+        
+        $('#black').css({"height":"100%","z-index":"9900","top":"0px"});
+        
+        
+        
+        function getBodyScrollTop()
+{
+alert( self.pageYOffset || (document.documentElement && document.documentElement.scrollTop) || (document.body && document.body.scrollTop));
+  
+  
+}
+        
+        
+        
+      }
+      
+
+
+        
+    });
+});
+
+
+
+
+      $(document).ready(function(){
+        
+        
+
+    $("#black").on("click", function () {
+
+      $('#black').css({"height":"0","z-index":"9900"});
+        $("#feedback-form").css({"height":"0px","overflow":"hidden","top":"-20%"});
+
+
+        
+    });
+});
+
+    $(document).ready(function(){
+      
+
+    $("#close").on("click", function () {
+
+      $('#black').css({"height":"0","z-index":"9900"});
+        $("#feedback-form").css({"height":"0px","overflow":"hidden","top":"-20%"});
+
+
+        
+    });
+});
+
+    $(document).ready(function(){
+      
+
+    $("#menu-open").on("click", function () {
+
+      $("#menu-open").css("margin-left","145%")
+        $("#menu-phone").css({"display":"block","margin-left":"0px"});
+
+
+        
+    });
+});
+
+    $(document).ready(function(){
+      
+    
+      
+
+    $("#close-thanks-phone").on("click", function () {
+
+       $("#menu-open").css("margin-left","88%")
+        $("#menu-phone").css({"display":"block","margin-left":"-600px"});
+
+
+        
+    });
+});
+
+
+         
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  (function($) {
+    $(function() {
+        var jcarousel = $('.jcarousel');
+
+        jcarousel
+            .on('jcarousel:reload jcarousel:create', function () {
+                var carousel = $(this),
+                    width = carousel.innerWidth();
+
+                if (width >= 600) {
+                    width = width / 3;
+                } else if (width >= 350) {
+                    width = width / 2;
+                }
+
+                carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
+            })
+            .jcarousel({
+                wrap: 'circular'
+            });
+
+        $('.jcarousel-control-prev')
+            .jcarouselControl({
+                target: '-=1'
+            });
+
+        $('.jcarousel-control-next')
+            .jcarouselControl({
+                target: '+=1'
+            });
+
+        $('.jcarousel-pagination')
+            .on('jcarouselpagination:active', 'a', function() {
+                $(this).addClass('active');
+            })
+            .on('jcarouselpagination:inactive', 'a', function() {
+                $(this).removeClass('active');
+            })
+            .on('click', function(e) {
+                e.preventDefault();
+            })
+            .jcarouselPagination({
+                perPage: 1,
+                item: function(page) {
+                    return '<a href="#' + page + '">' + page + '</a>';
+                }
+            });
+    });
+})(jQuery);
+</script>
+
+</html>
